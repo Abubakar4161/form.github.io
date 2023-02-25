@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <!-----form------>
+
+    <div class="forms">
+        <form action="">
+            <fieldset>
+                <legend>SUBMIT FORM</legend>
+                <div class="" style="display: flex;">
+                    <div class="">
+                        <label for="fsname">Name:</label><br>
+                        <input type="text" name="fsname" id="fsname" placeholder="Enter Your Name" required
+                            maxlength="12" size="20"><br>
+                    </div>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <div class="">
+                        <label for="lsname">Last Name:</label><br>
+                        <input type="text" name="lsname" id="lsname" placeholder="Enter last name" required
+                            maxlength="12" size="20"><br>
+                    </div>
+                </div>
+
+                <div class="" style="display: flex;">
+                    <div class="">
+                        <label for="password">Password:</label><br>
+                        <input type="password" placeholder="Enter password" required name="password" maxlength="8"
+                            minlength="3" size="20"><br>
+                    </div>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <div class="">
+                        <label for="birth">Birthdate:</label><br>
+                        <input type="datetime-local" name="birth" placeholder="Enter your birthdate" id="birth"
+                            size="20"><br>
+                    </div>
+                </div>
+
+
+                <div class="" style="display: flex;">
+                    <div class="">
+                        <label for="email">Email:</label><br>
+                        <input type="email" name="email" required placeholder="enter your email" id="email"
+                            size="20"><br>
+                    </div>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <div class="">
+                        <label for="num">Phone:</label><br>
+                        <input type="text" name="num" placeholder="Enter your Phone No" required size="20"><br>
+                    </div>
+                </div>
+
+                <div class="" style="display: flex;">
+                    <div class="">
+                        <label for="address">Address:</label><br>
+                        <input type="text" placeholder="Enter your Home address" size="20"><br>
+                    </div>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <div class="">
+                        <label for="City">Country:</label><br>
+                        <input type="text" placeholder="Write country name" name="Pakistan" size="20"><br>
+                    </div>
+                </div>
+
+
+                <label for="City">City Name:</label><br>
+                <select name="City" id="City"
+                    style="font-weight: bold; font-style: italic; background: transparent; color: rgb(134, 134, 134);">
+                    <option value="Lahore">Lahore</option>
+                    <option value="Karachi">Karachi</option>
+                    <option value="Islamabad" selected>Islamabad</option>
+                    <option value="Peshawar">Quetta</option>
+                    <option value="Peshawar">Peshawar</option>
+                </select><br>
+
+                <label for="Education">University:</label><br>
+                <select name="Education" id="Education"
+                    style="font-weight: bold; font-style: italic;background: transparent; color: rgb(134, 134, 134); ">
+                    <option value="Virtual">Virtual</option>
+                    <option value="Punjab" selected>PGU</option>
+                    <option value="FAST">FAST</option>
+                    <option value="UET">UET</option>
+                    <option value="UMT">UMT</option>
+                </select><br>
+
+                <label for="gender">Male:</label>
+                <input type="radio" name="male" value="male" >
+                <label for="gender">Female:</label>
+                <input type="checkbox" name="Female" value="Female" ><br>
+                <label for="cv">Choose Cv:</label><br>
+                <input type="file" multiple><br>
+                <button type="submit">Submit</button>
+
+            </fieldset>
+        </form>
+    </div>
+
+
+</body>
+
+</html>
